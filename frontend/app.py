@@ -10,7 +10,7 @@ geolocator = Nominatim(user_agent="sport_connect_frontend")
 import os
 
 # --- Backend API URL ---
-BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:8000")
+BACKEND_URL = os.getenv("BACKEND_URL", "https://sport-connect-31f5.onrender.com")
 
 st.set_page_config(page_title="Sport Connect", page_icon="🏆", layout="wide")
 
